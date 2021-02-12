@@ -7,13 +7,13 @@ __lua__
 -- by gareth jackson
 ----------------------------
 
-#include debug.lua
-#include map.lua
-#include flames.lua
-#include bombs.lua
-#include player.lua
-#include tools.lua
-#include main.lua
+#include src/debug.lua
+#include src/map.lua
+#include src/flames.lua
+#include src/bombs.lua
+#include src/player.lua
+#include src/tools.lua
+#include src/main.lua
 
 __gfx__
 0000000066666666333333333333333337767553d6d6d671176d6d6d511551155115511551155115d6d6d6d11d6d6d6dd77dd77d000000000000000000000000
