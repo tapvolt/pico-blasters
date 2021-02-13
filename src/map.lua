@@ -8,6 +8,7 @@ function make_arena()
 	
 	arena.wall = 0
 	arena.barrel = 1
+	arena.flame = 4
 
 	random_arena()
 	make_torches()
@@ -131,4 +132,9 @@ function draw_torches()
 			torches[i].flipy
 		)
 	end
+end
+
+function delete_barrel(x, y)
+	mset(x, y, random_grass_sprite()
+)
 end

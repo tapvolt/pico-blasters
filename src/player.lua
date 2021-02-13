@@ -5,7 +5,7 @@
 function make_player()
 	player = {}
 	player.b = 1									-- number of bombs
-	player.p = 4									-- power
+	player.p = 1									-- power
 	player.sprites = {224, 225, 226}
 	player.x = 1 									-- start position
 	player.y = 2
